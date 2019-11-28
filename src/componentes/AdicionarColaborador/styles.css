@@ -1,0 +1,52 @@
+.corpo {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.corpo h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.corpo form{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.corpo form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit button{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px; 
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.submit button:hover {
+    background: #da552f;
+    color: #fff;
+  }
