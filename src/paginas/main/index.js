@@ -13,7 +13,7 @@ export default class main extends Component {
   };
 
   carregaColaboradores = async () => {
-    const resposta = await Api.get('/colaboradores');
+    const resposta = await Api.get('/api/colaboradores');
     console.log(resposta);
     this.setState({
       colaboradores: resposta.data.Items

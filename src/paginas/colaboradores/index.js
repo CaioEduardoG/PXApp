@@ -11,7 +11,7 @@ export default class colaboradores extends Component {
 
   componentDidMount = async() => {
     const { id } = this.props.match.params;
-    const resposta = await Api.get(`/colaboradores`);
+    const resposta = await Api.get(`/api/colaboradores`);
     this.setState({
       colaboradores: resposta.data.Items
     });
