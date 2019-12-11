@@ -1,11 +1,13 @@
 import Axios from 'axios';
 
+var api 
+
 if (`${process.env.NODE_ENV}` === "dev") {
-  var api = Axios.create({
+  api = Axios.create({
     baseURL: `${process.env.BASE_URL}`
   });
 }else {
-  var api = Axios.create({
+  api = Axios.create({
     baseURL: ''
   });
 }
